@@ -1,0 +1,110 @@
+{
+	"id": "6372142b-d5f2-44bd-bcd6-047745de390d",
+	"createdAt": "2021-04-08T15:54:54.000Z",
+	"createdBy": "vefern",
+	"fields": [
+		{
+			"id": "21b79dd9-d3df-4b17-a85f-f599922b18d2",
+			"fieldName": "eventId",
+			"fieldType": "text",
+			"description": "Event"
+		},
+		{
+			"id": "8e9f066f-ae70-48c1-c21f-e6c438ed1f62",
+			"fieldName": "ticketType",
+			"fieldType": "text",
+			"description": "Ticket Type",
+			"isNullable": true
+		},
+		{
+			"id": "d1ae0b54-22f3-411b-8679-158addf15826",
+			"fieldName": "ticketPrice",
+			"fieldType": "integer",
+			"description": "Ticket Price",
+			"isNullable": true
+		},
+		{
+			"id": "242fb8c1-e8a2-4452-84e8-e607850ff77e",
+			"fieldName": "currency",
+			"fieldType": "text",
+			"description": "Currency",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "3b70c324-fdf2-429c-85d3-33b04702fd94",
+			"name": "FK_024f20ccec8b508a07dd86e7a76",
+			"referencedTable": "events",
+			"referencedTableId": "92aed5f6-d231-4f0d-936c-18be7bfec44b",
+			"referencedTableColumns": [
+				{
+					"id": "ec1a4bf6-b210-46e2-8b82-5edbec897b5c",
+					"fieldName": "eventDate",
+					"fieldType": "text",
+					"default": "",
+					"description": "Event Date"
+				},
+				{
+					"id": "9037cdd3-7a27-41eb-bdaf-d3d9f5634cf2",
+					"fieldName": "eventVenue",
+					"fieldType": "text",
+					"default": "",
+					"description": "Event Venue"
+				},
+				{
+					"id": "016d1247-35f8-4234-994a-19282d25bb3f",
+					"fieldName": "imageLink",
+					"fieldType": "text",
+					"default": "",
+					"description": "Link to an image"
+				},
+				{
+					"id": "0bd36dd8-af9e-4d32-8f58-0c14754908d0",
+					"fieldName": "totalTickets",
+					"fieldType": "integer",
+					"default": "",
+					"description": "Total Tickets"
+				},
+				{
+					"id": "da6e7668-e7f4-43fa-9f4d-596942be4432",
+					"fieldName": "ticketsAvailable",
+					"fieldType": "integer",
+					"default": "",
+					"description": "Tickets still available"
+				},
+				{
+					"id": "e7dd516d-c871-4e95-c915-fd691335490e",
+					"fieldName": "goldenCircleTickets",
+					"fieldType": "integer",
+					"description": "Total Golden Circle Tickets"
+				},
+				{
+					"id": "ad3692af-895e-4e55-805a-3808740ed110",
+					"fieldName": "goldenCircleTicketsAvailable",
+					"fieldType": "integer",
+					"description": "Golden Tickets Still Available"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "21b79dd9-d3df-4b17-a85f-f599922b18d2",
+					"fieldName": "eventId",
+					"fieldType": "text",
+					"description": "Event",
+					"referencedColumnName": "id"
+				}
+			]
+		}
+	],
+	"name": "ticketprices",
+	"description": "Event Tickets",
+	"ver": "23.2.13.1534",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751",
+	"rolesRead": [],
+	"rolesWrite": []
+}

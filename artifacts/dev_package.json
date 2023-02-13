@@ -7,7 +7,7 @@
 	},
 	"name": "TRAINING_DFO",
 	"description": "Training DFO",
-	"ver": "23.2.13.1434",
+	"ver": "23.2.13.1435",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -51,6 +51,11 @@
 	"odataSource": [],
 	"odataMock": [],
 	"dictionary": [
+		{
+			"id": "6372142b-d5f2-44bd-bcd6-047745de390d",
+			"name": "ticketprices",
+			"description": "Event Tickets"
+		},
 		{
 			"id": "4ccb87c9-0f08-4274-b99c-26ef837353ef",
 			"name": "eventbookings",
