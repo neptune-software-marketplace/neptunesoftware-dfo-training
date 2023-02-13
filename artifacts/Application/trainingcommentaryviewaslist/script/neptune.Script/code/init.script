@@ -1,0 +1,7 @@
+const initApp = async () => {
+    loadStaticModels();
+    populateControls();
+    initLayout();
+}
+initApp();
+

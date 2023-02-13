@@ -1,0 +1,5 @@
+if (typeof QIRCommentary !== 'undefined') {
+    QIRCommentary.toolsEditor.onPressBtnBackToGrid = () => {
+        oApp.backToPage(pageCommentaryGrid);
+    }
+}

@@ -1,0 +1,27 @@
+const onBtnViewAsList = (oEvent) => {
+    QIRCommentary.toolsMain.onPressBtnViewAsList();
+}
+
+const onBtnViewAsGallery = (oEvent) => {
+    QIRCommentary.toolsMain.onPressBtnViewAsGallery();
+}
+
+const onBtnShowChart = (oEvent) => {
+    QIRCommentary.toolsMain.onPressShowChart();
+}
+
+const onBtnFilter = (oEvent) => {
+    oTblFilterInternal.open();
+}
+
+const onBtnExportToExcel = (oEvent) => {
+
+}
+
+const onBtnApprove = (oEvent) => {
+
+}
+
+const onLiveSearch = (oEvent) => {
+
+}

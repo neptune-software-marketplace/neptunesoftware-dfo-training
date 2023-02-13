@@ -1,0 +1,11 @@
+const initApp = async () => {
+    loadStaticModels();
+    loadView();
+    populateControls();
+}
+
+sap.ui.getCore().attachInit(function(startParams) {
+    setTimeout(function() {
+        initApp();
+    }, 200);
+});

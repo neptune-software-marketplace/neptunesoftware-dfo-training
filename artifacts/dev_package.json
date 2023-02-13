@@ -1,0 +1,174 @@
+{
+	"id": "d2574406-bcd3-4344-8c13-cca7c6cf0751",
+	"createdAt": "2023-02-11T18:05:46.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dfo-training"
+	},
+	"name": "TRAINING_DFO",
+	"description": "Training DFO",
+	"ver": "23.2.13.1434",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "fbc70d13-ac37-4dbf-8b33-e40b55fd5a50",
+			"application": "trainingcommentarycomplete",
+			"title": "",
+			"description": "Complete commentary for QIR"
+		},
+		{
+			"id": "dd3e8891-5dbb-448d-ab62-25de519b8fd7",
+			"application": "trainingcommentaryviewaslist",
+			"title": "",
+			"description": "Complete commentary for QIR - List commentaries as list and edit per commentary"
+		},
+		{
+			"id": "c98ce78a-c47f-4f1b-ab0d-37b889e0a262",
+			"application": "trainingcommentaryedit",
+			"title": "",
+			"description": "Complete commentary for QIR - edit/view a commentary"
+		},
+		{
+			"id": "a874e337-4faa-4acc-9b76-eb8cdcae56c1",
+			"application": "trainingutilscode",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "986e6e4d-5de1-4516-812d-2551aa679b64",
+			"application": "trainingcommentaryviewasgallery",
+			"title": "",
+			"description": "Complete commentary for QIR - List commentaries as grid and edit per commentary"
+		},
+		{
+			"id": "7e5aea30-7c9a-40ea-8a1f-6104f176b00d",
+			"application": "trainingheader",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "4ccb87c9-0f08-4274-b99c-26ef837353ef",
+			"name": "eventbookings",
+			"description": "Event Bookings Training"
+		},
+		{
+			"id": "08fa578f-aa09-4574-9291-3c39a9424912",
+			"name": "eventtraining",
+			"description": "A List of Events - training"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "f01a2b21-470b-4ea4-82a8-b0d48362f64c",
+			"name": "eventBookingList",
+			"description": "Event list training",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "cf8690b2-8944-4f58-b09f-c1e9ba873eeb",
+			"name": "singleeventcreation",
+			"description": "Single event creation training",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "b4208df7-d952-4e66-b996-9d1e7b88c806",
+			"name": "Eventbookingchart",
+			"description": "Event Booking chart training",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "16d600de-54bd-4b44-aacd-aeb55ff34622",
+			"name": "eventlistmaintenance",
+			"description": "Event list maintenance training",
+			"application": "planet9_adaptive_list"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "d69df019-44da-4cfc-8ca6-b9328a4c5f3b",
+			"description": null,
+			"name": "TRAININGDashStatus"
+		},
+		{
+			"id": "b86f2b58-be1a-469c-b533-4d2e03bf672d",
+			"description": null,
+			"name": "TRAININGEventMaint"
+		},
+		{
+			"id": "938dd8e4-6da4-45dc-b0c1-d4ec9858367f",
+			"description": null,
+			"name": "TRAININGCompleteCommentary"
+		},
+		{
+			"id": "15b1af58-bbf3-4358-9927-b461447a1cbb",
+			"description": null,
+			"name": "TRAININGEventList"
+		}
+	],
+	"category": [
+		{
+			"id": "62733e68-b9c7-46fb-b01d-4222b771fea7",
+			"description": null,
+			"name": "TRAINING_COMMENTS"
+		},
+		{
+			"id": "4f9c16b9-b417-424b-bb6b-4714a4e7069d",
+			"description": null,
+			"name": "TRAINING_ATGLANCE"
+		},
+		{
+			"id": "1d80197d-e066-4ea0-86cd-6befdfe4475e",
+			"description": null,
+			"name": "TRAINING_HOME"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "34ccf235-b563-420f-adc2-360a61511641",
+			"name": "TRAINING",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "de5dda20-ee64-47f4-92fa-475f0f8ee7f0",
+			"name": "Events",
+			"description": "Events training connector"
+		},
+		{
+			"id": "46d21965-77b8-489f-887f-a805e587720f",
+			"name": "Event Bookings",
+			"description": "Event bookings training connector"
+		}
+	],
+	"events": [],
+	"media_library": [
+		{
+			"id": "bc55f2d7-8f3b-4d9b-9663-0384a724982a",
+			"updatedAt": "2023-02-12T11:55:39.000Z",
+			"name": "training",
+			"parent": null,
+			"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751"
+		}
+	]
+}

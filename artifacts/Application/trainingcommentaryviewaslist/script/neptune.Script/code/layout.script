@@ -1,0 +1,19 @@
+var ctrl = {
+    flex: {},
+};
+
+const initLayout = () => {
+    ctrl.flex.settings = {
+        defaultTwoColumnLayoutType: sap.f.LayoutType.TwoColumnsMidExpanded,
+        defaultThreeColumnLayoutType: sap.f.LayoutType.ThreeColumnsMidExpanded
+    };
+    sap.ui.require(["sap/f/FlexibleColumnLayoutSemanticHelper"], function (FlexibleColumnLayoutSemanticHelper) {
+        ctrl.flex.helper = new FlexibleColumnLayoutSemanticHelper.getInstanceFor(layoutMain, ctrl.flex.settings);
+        ctrl.flex.layout = ctrl.flex.helper.getNextUIState(0);
+        layoutMain.setLayout(ctrl.flex.layout.layout);
+    });
+}
+
+const shrunkLayout = () => {
+    layoutMain.setLayout(sap.f.LayoutType.TwoColumnsMidExpanded);
+}

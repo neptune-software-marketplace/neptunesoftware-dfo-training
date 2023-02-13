@@ -1,0 +1,76 @@
+.qirCommentary-onGrid-body {
+    align-items: space-between;
+    margin: 0 auto;
+    /* max-width: 800px; */
+    padding: 3rem;
+    padding-left: 6rem;
+}
+
+.qirCommentary-onGrid ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17.5rem, 20rem));
+    column-gap: 1.5rem; 
+    row-gap: 1.5rem;
+    grid-auto-flow: row; 
+}
+
+.qirCommentary-onGrid-gridItem {
+    padding: 1rem; 
+}
+
+.qirCommentary-onGrid-card {
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.qirCommentary-onGridCard-header {}
+
+.qirCommentary-onGridCard-title {
+    height: 20px;
+    margin: 0;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+/*TODO*/
+.qirCommentary-onGridCard-content {
+    margin: 10px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 16;
+    -webkit-box-orient: vertical;
+}
+
+.qirCommentary-onGridCard-content p span {
+    background-color: transparent !important;
+    font-size: 1rem !important;
+}
+
+.qirCommentary-onGridCard-footer {}
+
+.qirCommentary-onGridCard-modifiedAt {
+    margin-right: 10px;
+    color: #aaa;/*#777*/
+}
+
+.qirCommentary-onGridCard-modifiedBy {}
+
+.qirCommentary-onGridCard-statusIncomplete {
+    margin-right: 10px;
+    color: #fff;
+    background-color: coral;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+
+.qirCommentary-onGridCard-feeds {
+    color: #fff;
+    background-color: #3ca1db;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}

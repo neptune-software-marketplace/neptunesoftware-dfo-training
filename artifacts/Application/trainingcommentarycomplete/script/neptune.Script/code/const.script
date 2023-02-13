@@ -1,0 +1,23 @@
+class TYPEVIEW {
+    static LIST = new TYPEVIEW("LIST");
+    static GRID = new TYPEVIEW("GRID");
+
+    constructor(name) {
+        this.name = name;
+    }
+    getName() {
+        return this.name;
+    }
+}
+
+class VIEWAPP {
+    static LISTVIEW = new TYPEVIEW("TRAININGCOMMENTARYVIEWASLIST");
+    static GRIDVIEW = new TYPEVIEW("TRAININGCOMMENTARYVIEWASGALLERY");
+
+    constructor(name) {
+        this.name = name;
+    }
+    getName() {
+        return this.name;
+    }
+}

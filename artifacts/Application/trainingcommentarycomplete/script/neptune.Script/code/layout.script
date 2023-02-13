@@ -1,0 +1,56 @@
+const renderViewAsList = () => {
+    console.log('renderViewAsList');
+    QIRCommentary.setSelectedView(TYPEVIEW.LIST);
+
+    //CUSTOM COMPONENT
+    otrainingheader.renderViewAsList(oNavContainer, viewAsList, VIEWAPP.LISTVIEW.getName());
+}
+
+const renderViewAsGrid = () => {
+    QIRCommentary.setSelectedView(TYPEVIEW.GRID);
+    oNavContainer.to(viewAsGallery);
+
+    let today = new Date();
+    let titleforGrid = `Today is ${today.toDateString()}`;
+
+    AppCache.Load(VIEWAPP.GRIDVIEW.getName(), {
+        parentObject: viewAsGallery,
+        startParams: {
+            titleforGrid
+        }
+    });
+}
+
+const renderChart = () => {
+    oNavContainer.to(showChart);
+    let filter = {
+        value: "Carmen",
+        fieldName: "name"
+    };
+
+    let startParams = {};
+    startParams.navigation = {
+        keyField: [filter]
+    };
+
+    AppCache.LoadAdaptive("b4208df7-d952-4e66-b996-9d1e7b88c806", {
+        parentObject: showChart,
+        startParams
+    });
+}
+
+const loadView = () => {
+    try {
+        if (sap.n) {
+            switch (QIRCommentary.getSelectedView()) {
+                case TYPEVIEW.GRID:
+                    renderViewAsGrid();
+                    break;
+                case TYPEVIEW.LIST:
+                default:
+                    renderViewAsList();
+                    break;
+            }
+        }
+    } catch (e) { }
+}

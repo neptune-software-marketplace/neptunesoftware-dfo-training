@@ -1,0 +1,139 @@
+{
+	"id": "4ccb87c9-0f08-4274-b99c-26ef837353ef",
+	"createdAt": "2021-04-07T13:47:26.000Z",
+	"createdBy": "vefern",
+	"fields": [
+		{
+			"id": "376817c7-a522-4cb2-e864-2917f2b26409",
+			"fieldName": "eventId",
+			"fieldType": "text",
+			"default": "",
+			"description": "Event"
+		},
+		{
+			"id": "fdeedd42-5864-4297-8eac-297a0c6244ef",
+			"fieldName": "ticketType",
+			"fieldType": "text",
+			"default": "",
+			"description": "TicketType",
+			"isNullable": true
+		},
+		{
+			"id": "fa0f1143-b124-4d8d-f3cf-7d87f8df4b8b",
+			"fieldName": "quantity",
+			"fieldType": "integer",
+			"default": "",
+			"description": "Number of Tickets"
+		},
+		{
+			"id": "a10e2bcf-3dac-4f8e-9309-6e499a93372a",
+			"fieldName": "name",
+			"fieldType": "text",
+			"default": "",
+			"description": "Name of applicant"
+		},
+		{
+			"id": "acef7e35-9105-4dfc-eda9-e770376ac423",
+			"fieldName": "cellNumber",
+			"fieldType": "text",
+			"description": "Cell Phone Number"
+		},
+		{
+			"id": "fb426f9f-3f9f-47dc-afd7-f0f64c3f1c68",
+			"fieldName": "emailAddress",
+			"fieldType": "text",
+			"description": "E-mail"
+		},
+		{
+			"id": "6c41f7fd-2d9e-4066-d4e6-999c08496a0f",
+			"fieldName": "status",
+			"fieldType": "text",
+			"default": "",
+			"description": "Approval Status",
+			"isNullable": true
+		},
+		{
+			"id": "dcd3cce8-071d-43d1-cec1-f32852e958f5",
+			"fieldName": "supportBookingId",
+			"fieldType": "text",
+			"description": "Manual generated booking id"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "57a37845-a56f-49e3-8a53-1446ecea884e",
+			"name": "FK_2e927341d6bd36ae587df64d6dd",
+			"referencedTable": "events",
+			"referencedTableId": "92aed5f6-d231-4f0d-936c-18be7bfec44b",
+			"referencedTableColumns": [
+				{
+					"id": "ec1a4bf6-b210-46e2-8b82-5edbec897b5c",
+					"fieldName": "eventDate",
+					"fieldType": "text",
+					"default": "",
+					"description": "Event Date"
+				},
+				{
+					"id": "9037cdd3-7a27-41eb-bdaf-d3d9f5634cf2",
+					"fieldName": "eventVenue",
+					"fieldType": "text",
+					"default": "",
+					"description": "Event Venue"
+				},
+				{
+					"id": "016d1247-35f8-4234-994a-19282d25bb3f",
+					"fieldName": "imageLink",
+					"fieldType": "text",
+					"default": "",
+					"description": "Link to an image"
+				},
+				{
+					"id": "0bd36dd8-af9e-4d32-8f58-0c14754908d0",
+					"fieldName": "totalTickets",
+					"fieldType": "integer",
+					"default": "",
+					"description": "Total Tickets"
+				},
+				{
+					"id": "da6e7668-e7f4-43fa-9f4d-596942be4432",
+					"fieldName": "ticketsAvailable",
+					"fieldType": "integer",
+					"default": "",
+					"description": "Tickets still available"
+				},
+				{
+					"id": "e7dd516d-c871-4e95-c915-fd691335490e",
+					"fieldName": "goldenCircleTickets",
+					"fieldType": "integer",
+					"description": "Total Golden Circle Tickets"
+				},
+				{
+					"id": "ad3692af-895e-4e55-805a-3808740ed110",
+					"fieldName": "goldenCircleTicketsAvailable",
+					"fieldType": "integer",
+					"description": "Golden Tickets Still Available"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "id",
+					"id": "376817c7-a522-4cb2-e864-2917f2b26409",
+					"fieldName": "eventId",
+					"fieldType": "text",
+					"default": "",
+					"description": "Event",
+					"referencedColumnName": "id"
+				}
+			]
+		}
+	],
+	"name": "eventbookings",
+	"description": "Event Bookings Training",
+	"ver": "23.2.13.129",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751",
+	"rolesRead": [],
+	"rolesWrite": []
+}

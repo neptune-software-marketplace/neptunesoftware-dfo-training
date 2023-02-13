@@ -1,0 +1,168 @@
+{
+	"id": "b4208df7-d952-4e66-b996-9d1e7b88c806",
+	"createdAt": "2023-02-12T16:24:36.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": true
+			},
+			"table": {
+				"titleAlign": "left",
+				"chartHeight": "300",
+				"chartType": "bar",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": false,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": false,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"title": "",
+				"chartColor": "",
+				"colorMonochrome": ""
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "eventId",
+				"label": "Event",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ticketType",
+				"label": "TicketType",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "quantity",
+				"label": "Number of Tickets",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name of applicant",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "cellNumber",
+				"label": "Cell Phone Number",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "emailAddress",
+				"label": "E-mail",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Approval Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "supportBookingId",
+				"label": "Manual generated booking id",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "name",
+				"text": "Name of applicant",
+				"fieldPos": 1
+			}
+		],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "ticketType",
+				"text": "type",
+				"fieldPos": 2
+			},
+			{
+				"visible": true,
+				"name": "status",
+				"text": "status",
+				"fieldPos": 3,
+				"type": "category"
+			}
+		],
+		"defaultVariant": {
+			"id": "2c370c91-559c-47e5-fbe1-126d608fe1be",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "Eventbookingchart",
+	"description": "Event Booking chart training",
+	"group": "",
+	"type": "C",
+	"connectorid": "46d21965-77b8-489f-887f-a805e587720f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.2.13.1221",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

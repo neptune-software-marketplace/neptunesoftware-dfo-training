@@ -1,0 +1,11 @@
+const editModel = {
+    "edit": true
+}
+
+const loadStaticModels = () => {
+    modeloUiMode.setData(editModel);
+}
+
+const populateControls = () => {
+
+}

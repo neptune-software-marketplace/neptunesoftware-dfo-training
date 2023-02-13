@@ -1,0 +1,209 @@
+{
+	"id": "cf8690b2-8944-4f58-b09f-c1e9ba873eeb",
+	"createdAt": "2023-02-13T09:36:44.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": false,
+				"title": "Single event creation",
+				"subTitle": "Update",
+				"avatarIcon": "sap-icon://activity-items",
+				"avatarBackgroundColor": "Accent1"
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"formLayout": "GridLayout",
+				"columnsL": "3",
+				"columnsM": "3",
+				"titleLevel": "H3"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "eventDate",
+				"label": "Event Date",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "eventVenue",
+				"label": "Event Venue",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "imageLink",
+				"label": "Link to an image",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "totalTickets",
+				"label": "Total Tickets",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ticketsAvailable",
+				"label": "Tickets still available",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "goldenCircleTickets",
+				"label": "Total Golden Circle Tickets",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "goldenCircleTicketsAvailable",
+				"label": "Golden Tickets Still Available",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "eventDate",
+				"text": "Date",
+				"fieldPos": 1
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "eventVenue",
+				"text": "Name of Venue",
+				"fieldPos": 2
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "imageLink",
+				"text": "Link to an image",
+				"fieldPos": 3
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "totalTickets",
+				"text": "Total Tickets",
+				"fieldPos": 4,
+				"inputType": "Number"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "ticketsAvailable",
+				"text": "Tickets still available",
+				"fieldPos": 5,
+				"inputType": "Number"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "goldenCircleTickets",
+				"text": "Total Golden Circle Tickets",
+				"fieldPos": 6,
+				"inputType": "Number"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "goldenCircleTicketsAvailable",
+				"text": "Golden Tickets Still Available",
+				"fieldPos": 7,
+				"inputType": "Number"
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "8f2cf5fa-cced-42bd-c6b0-223f2fd306b6",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "singleeventcreation",
+	"description": "Single event creation training",
+	"group": "",
+	"type": "C",
+	"connectorid": "de5dda20-ee64-47f4-92fa-475f0f8ee7f0",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.2.13.1249",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

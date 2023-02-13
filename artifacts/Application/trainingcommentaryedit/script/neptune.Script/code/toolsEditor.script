@@ -1,0 +1,28 @@
+const onBtnFullScreen = () => {
+    if (typeof QIRCommentary !== 'undefined') {
+         QIRCommentary.toolsEditor.onPressBtnFullScreen();
+    }
+    updateLayoutScreenIcon(false);
+}
+
+const onBtnEdit = () => {
+    onUpdateEdit();
+}
+
+const onBtnSave = () => {
+    onUpdateEdit();
+}
+
+const onBtnOpenFeeds = () => {
+    
+}
+
+const onBtnMarkAsComplete = () => {
+    updateEditMode(false);
+}
+
+const onBtnBack = (oEvent) => {
+    if (typeof QIRCommentary !== 'undefined') {
+         QIRCommentary.toolsEditor.onPressBtnBackToGrid();
+    }
+}

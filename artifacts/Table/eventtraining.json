@@ -1,0 +1,70 @@
+{
+	"id": "08fa578f-aa09-4574-9291-3c39a9424912",
+	"createdAt": "2021-04-07T13:47:49.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "c47fc1e3-e828-440d-cb32-2bc7ed40bae6",
+			"fieldName": "eventDate",
+			"fieldType": "text",
+			"default": "",
+			"description": "Event Date"
+		},
+		{
+			"id": "61970246-e487-4193-9624-1660f48b09e6",
+			"fieldName": "eventVenue",
+			"fieldType": "text",
+			"default": "",
+			"description": "Event Venue",
+			"isNullable": true
+		},
+		{
+			"id": "612628cf-7cb6-44f1-c07f-9f7368479e2b",
+			"fieldName": "imageLink",
+			"fieldType": "text",
+			"default": "",
+			"description": "Link to an image",
+			"isNullable": true
+		},
+		{
+			"id": "92ce593a-9831-45f9-cdc6-170660e4d201",
+			"fieldName": "totalTickets",
+			"fieldType": "integer",
+			"default": "",
+			"description": "Total Tickets",
+			"isNullable": true
+		},
+		{
+			"id": "c0b6d0a0-ff50-439e-ebc4-aa64b8b45376",
+			"fieldName": "ticketsAvailable",
+			"fieldType": "integer",
+			"default": "",
+			"description": "Tickets still available",
+			"isNullable": true
+		},
+		{
+			"id": "069b6b2d-d076-4e67-a4e9-1123a1fa785b",
+			"fieldName": "goldenCircleTickets",
+			"fieldType": "integer",
+			"description": "Total Golden Circle Tickets",
+			"isNullable": true
+		},
+		{
+			"id": "01c27a98-c3c5-4f12-a511-bb908629d33f",
+			"fieldName": "goldenCircleTicketsAvailable",
+			"fieldType": "integer",
+			"description": "Golden Tickets Still Available",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "eventtraining",
+	"description": "A List of Events - training",
+	"ver": "23.2.13.1054",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751",
+	"rolesRead": [],
+	"rolesWrite": []
+}

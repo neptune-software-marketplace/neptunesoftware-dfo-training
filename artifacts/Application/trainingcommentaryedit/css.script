@@ -1,0 +1,30 @@
+.qirCommentaryEdit-content {
+    margin: 0;
+    padding: 1.5rem;
+}
+
+.qirCommentaryEdit-btnOpenFeeds {
+    position: fixed;
+    top: 4rem;
+    right: 1rem;
+    background-color: var(--lightBackgroundColor);
+    border: none;
+    border-radius: 3px;
+    padding: 0rem;
+}
+
+.qirCommentaryEdit-commentary {
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.qirCommentaryEdit-commentary .sapMInputBaseContentWrapper {
+    border: 0;
+}
+
+.qirCommentaryEdit-commentary .sapMInputBaseInner.sapMTextAreaInner {
+    outline: none !important;
+    padding: 20px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+}

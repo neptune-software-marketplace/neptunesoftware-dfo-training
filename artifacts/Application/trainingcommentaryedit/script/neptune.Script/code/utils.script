@@ -1,0 +1,19 @@
+const onUpdateEdit = () => {
+    let bEdit = modeloUiMode.getProperty("/edit");
+    updateEditMode(!bEdit);
+}
+
+const updateEditMode = (isEdit) => {
+    modeloUiMode.setProperty("/edit", isEdit);
+    modeloUiMode.refresh();
+}
+
+const updateLayoutScreenIcon = (bIsFull) => {
+    if (bIsFull) {
+        btnFullScreen.setIcon('sap-icon://full-screen');
+        btnFullScreen.setTooltip("Full screen");
+    } else {
+        btnFullScreen.setIcon('sap-icon://exit-full-screen');
+        btnFullScreen.setTooltip("Exit full screen");
+    }
+}

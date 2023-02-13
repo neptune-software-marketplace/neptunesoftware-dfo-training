@@ -1,0 +1,17 @@
+{
+	"id": "de5dda20-ee64-47f4-92fa-475f0f8ee7f0",
+	"createdAt": "2023-02-12T17:23:46.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"tableid": "08fa578f-aa09-4574-9291-3c39a9424912",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Events",
+	"description": "Events training connector",
+	"group": null,
+	"type": "T",
+	"ver": "23.2.13.1211",
+	"disabled": false,
+	"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751"
+}

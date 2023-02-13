@@ -1,0 +1,18 @@
+const initApp = async () => {
+    loadStaticModels();
+    populateControls();
+}
+initApp();
+
+
+// Custom Init - Happens only once when mounting the component
+sap.ui.getCore().attachInit(function(startParams) {
+
+     oTitle.setText(startParams.titleforGrid);
+
+    // Some stuff needs to be timed later. Run them inside a timeout
+    setTimeout(function() {
+        //  Do something
+    }, 200);
+
+});

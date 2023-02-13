@@ -1,0 +1,13 @@
+const onSelectedCommentary = (oEvent) => {
+    let selected = oEvent.getParameter("listItem");
+    let path = selected.oBindingContexts.oCommentaryModel.sPath;
+    let data = modeloCommentaryModel.getProperty(path);
+
+    //2 options!!!
+    if (typeof QIRCommentary !== 'undefined') {
+        QIRCommentary.commentaryToEdit = data;
+    }
+    modelpageCommentaryEdit.setData(data);
+
+    navigateToDetail();
+}

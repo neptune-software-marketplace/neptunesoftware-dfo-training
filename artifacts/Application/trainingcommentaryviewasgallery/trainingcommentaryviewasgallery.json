@@ -1,0 +1,742 @@
+{
+	"id": "986e6e4d-5de1-4516-812d-2551aa679b64",
+	"createdAt": "2023-02-12T14:52:36.000Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "59ddd7ff-eed2-4b27-bf15-38719538adb0",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "412f79d0-89d1-452b-833b-9b489765bfc1",
+					"fieldName": "oApp",
+					"fieldParent": "59ddd7ff-eed2-4b27-bf15-38719538adb0",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4b420192-3682-4174-8b62-efe30d6df027",
+							"fieldName": "pageCommentaryGrid",
+							"fieldParent": "412f79d0-89d1-452b-833b-9b489765bfc1",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiSmallMarginBeginEnd",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showHeader",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "addMasterPage",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "e32b8ff9-8237-4d03-a494-ae29c426d08f",
+									"fieldName": "oTitle",
+									"fieldParent": "4b420192-3682-4174-8b62-efe30d6df027",
+									"fieldType": "sap.m.Title",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "88f025f2-ebc8-4b63-dd37-6c8a2bc2cffb",
+									"fieldName": "oFlexBox",
+									"fieldParent": "4b420192-3682-4174-8b62-efe30d6df027",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "qirCommentary-onGrid-body ",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "direction",
+											"grouping": "Properties",
+											"value": "Column",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3ec17237-9451-47c0-caa0-d604b9f3b177",
+											"fieldName": "listCommentary",
+											"fieldParent": "88f025f2-ebc8-4b63-dd37-6c8a2bc2cffb",
+											"fieldType": "sap.f.GridList",
+											"script": "",
+											"customComponent": false,
+											"bindingType": "h",
+											"modelPath": "oCommentaryModel>/commentaries",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "itemPress",
+													"grouping": "Events",
+													"value": "onSelectedCommentary(oEvent);",
+													"script": "onSelectedCommentary(oEvent);",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "qirCommentary-onGrid",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "3a0bc32c-a34e-47a9-cf63-56ea5b5d4591",
+													"fieldName": "oGridListItem",
+													"fieldParent": "3ec17237-9451-47c0-caa0-d604b9f3b177",
+													"fieldType": "sap.f.GridListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Active",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "qirCommentary-onGrid-gridItem",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "ac5eddc4-b941-4450-db5e-944e1887608d",
+															"fieldName": "card",
+															"fieldParent": "3a0bc32c-a34e-47a9-cf63-56ea5b5d4591",
+															"fieldType": "sap.m.FlexBox",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "qirCommentary-onGrid-card",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "justifyContent",
+																	"grouping": "Properties",
+																	"value": "Start",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "direction",
+																	"grouping": "Properties",
+																	"value": "Column",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "fe659123-cefe-4d3a-d5ac-8212e0a721f6",
+																	"fieldName": "cardHeader",
+																	"fieldParent": "ac5eddc4-b941-4450-db5e-944e1887608d",
+																	"fieldType": "sap.m.FlexBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "qirCommentary-onGridCard-header",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "direction",
+																			"grouping": "Properties",
+																			"value": "Column",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "1b177790-6aa0-4ced-ecd3-73bbbfde52f2",
+																			"fieldName": "oHBoxStatus",
+																			"fieldParent": "fe659123-cefe-4d3a-d5ac-8212e0a721f6",
+																			"fieldType": "sap.m.HBox",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "justifyContent",
+																					"grouping": "Properties",
+																					"value": "End",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "bdb984ba-aedc-4e80-ddc8-d9a8eec15a04",
+																					"fieldName": "oStatus",
+																					"fieldParent": "1b177790-6aa0-4ced-ecd3-73bbbfde52f2",
+																					"fieldType": "sap.m.Text",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{oCommentaryModel>status}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "qirCommentary-onGridCard-statusIncomplete",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "b617170c-bc3b-421e-f2ce-e8db13b7c91e",
+																					"fieldName": "oNumComments",
+																					"fieldParent": "1b177790-6aa0-4ced-ecd3-73bbbfde52f2",
+																					"fieldType": "sap.m.Text",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{oCommentaryModel>numComments}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "qirCommentary-onGridCard-feeds",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "text",
+																							"grouping": "Formatter",
+																							"value": "Anonymous Function",
+																							"script": "return onFormatNumComments(numComments);",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		},
+																		{
+																			"fieldNo": "743ec7ed-e97e-47cb-9458-f2daf957838b",
+																			"fieldName": "oHBoxPortafolioCompany",
+																			"fieldParent": "fe659123-cefe-4d3a-d5ac-8212e0a721f6",
+																			"fieldType": "sap.m.HBox",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "visible",
+																					"grouping": "Properties",
+																					"value": "{=${oCommentaryModel>portafolioCompany}!=='' ? true: false}",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "04e4f8b8-ddc8-4ddc-ee06-e78643b500f1",
+																					"fieldName": "oPortafolioCompany",
+																					"fieldParent": "743ec7ed-e97e-47cb-9458-f2daf957838b",
+																					"fieldType": "sap.m.Title",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{='Portafolio Company: ' + ${oCommentaryModel>portafolioCompany}}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "qirCommentary-onGridCard-title",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "level",
+																							"grouping": "Properties",
+																							"value": "H3",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "1bf7e10f-67ab-4f3d-a56a-4ea5b01e8b91",
+																	"fieldName": "cardContent",
+																	"fieldParent": "ac5eddc4-b941-4450-db5e-944e1887608d",
+																	"fieldType": "sap.m.HBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "qirCommentary-onGridCard-content",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "9a9f47f2-a11e-4911-b98c-4c2969578010",
+																			"fieldName": "oDescription",
+																			"fieldParent": "1bf7e10f-67ab-4f3d-a56a-4ea5b01e8b91",
+																			"fieldType": "sap.m.FormattedText",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "htmlText",
+																					"grouping": "Properties",
+																					"value": "{oCommentaryModel>description}",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "b009d677-99f1-4134-e2ff-adc55395450d",
+																	"fieldName": "cardFooter",
+																	"fieldParent": "ac5eddc4-b941-4450-db5e-944e1887608d",
+																	"fieldType": "sap.m.HBox",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "qirCommentary-onGridCard-footer ",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "justifyContent",
+																			"grouping": "Properties",
+																			"value": "End",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "37940df0-0c61-4283-c0a1-00cae474afed",
+																			"fieldName": "oModifiedAt",
+																			"fieldParent": "b009d677-99f1-4134-e2ff-adc55395450d",
+																			"fieldType": "sap.m.Text",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "{oCommentaryModel>modifiedAt}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "qirCommentary-onGridCard-modifiedAt",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Formatter",
+																					"value": "date:Relative",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "33b3ef6a-7165-4279-e78d-5644af1da259",
+																			"fieldName": "oModifiedBy",
+																			"fieldParent": "b009d677-99f1-4134-e2ff-adc55395450d",
+																			"fieldType": "sap.m.ObjectStatus",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "title",
+																					"grouping": "Properties",
+																					"value": "Modified By",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "{oCommentaryModel>modifiedBy}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "styleClass",
+																					"grouping": "Properties",
+																					"value": "qirCommentary-onGridCard-modifiedBy",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "state",
+																					"grouping": "Properties",
+																					"value": "Success",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "492199a7-b54c-4621-880f-f906dd11a781",
+							"fieldName": "pageCommentaryEdit",
+							"fieldParent": "412f79d0-89d1-452b-833b-9b489765bfc1",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Object",
+							"bindingType": "u",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "showHeader",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "addDetailPage",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "968503aa-852f-4e87-9f35-ff158ccef77b",
+					"fieldName": "oFolder",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "456423f8-b408-4026-fc22-449af6beb71a",
+					"fieldName": "models",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "df2beb2b-82ad-41a6-c7c1-cf2c1febde2c",
+							"fieldName": "oUiModel",
+							"fieldParent": "456423f8-b408-4026-fc22-449af6beb71a",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "8bad824e-e815-4814-dced-6aadb77e41f9",
+							"fieldName": "oCommentaryModel",
+							"fieldParent": "456423f8-b408-4026-fc22-449af6beb71a",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingType": "h",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "eac50f86-6699-4c47-bb85-ab2a1e427c46",
+					"fieldName": "code",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "c9bd1271-3650-4e1f-8222-0de8bb93c4a7",
+							"fieldName": "otrainingutilscode",
+							"fieldParent": "eac50f86-6699-4c47-bb85-ab2a1e427c46",
+							"fieldType": "trainingutilscode",
+							"script": "",
+							"customComponent": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "28dba472-92dd-4387-9275-752184b52203",
+							"fieldName": "mock",
+							"fieldParent": "eac50f86-6699-4c47-bb85-ab2a1e427c46",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/code/mock.script",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "37b63120-66aa-41a5-cdca-c3f2278149f9",
+							"fieldName": "model",
+							"fieldParent": "eac50f86-6699-4c47-bb85-ab2a1e427c46",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/code/model.script",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "0f7391ce-c443-46fd-b50a-7a95e5770eb3",
+							"fieldName": "QIRCommentary.toolsEditor",
+							"fieldParent": "eac50f86-6699-4c47-bb85-ab2a1e427c46",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/code/QIRCommentary.toolsEditor.script",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "aa2de551-ef89-4d59-d460-0fec271b5203",
+							"fieldName": "events",
+							"fieldParent": "eac50f86-6699-4c47-bb85-ab2a1e427c46",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/code/events.script",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "d81697dd-3b89-468c-94ae-eedc7d904d3c",
+							"fieldName": "utils",
+							"fieldParent": "eac50f86-6699-4c47-bb85-ab2a1e427c46",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/code/utils.script",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "a6aabed1-4143-4b40-a9b9-5203c33f3ece",
+							"fieldName": "init",
+							"fieldParent": "eac50f86-6699-4c47-bb85-ab2a1e427c46",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/code/init.script",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.2.12.2215",
+	"application": "trainingcommentaryviewasgallery",
+	"title": "",
+	"description": "Complete commentary for QIR - List commentaries as grid and edit per commentary",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "customCDN",
+	"ui5_language": null,
+	"ui5_url": "https://openui5.hana.ondemand.com/1.102.6/resources/sap-ui-core.js",
+	"cus_theme": "",
+	"css": "file:///css.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751"
+}

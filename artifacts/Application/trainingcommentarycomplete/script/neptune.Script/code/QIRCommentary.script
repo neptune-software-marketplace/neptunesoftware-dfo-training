@@ -1,0 +1,42 @@
+QIRCommentary = {
+    selectedView: TYPEVIEW.LIST,
+    commentaryToEdit: {},
+
+    setSelectedView: (value) => {
+        this.selectedView = value;
+    },
+    getSelectedView: () => {
+        return this.selectedView;
+    },
+
+    toolsMain: {
+        onPressBtnViewAsList: () => {
+            renderViewAsList();
+        },
+
+        onPressBtnViewAsGallery: () => {
+            renderViewAsGrid();
+        },
+
+        onPressShowChart: () => {
+            renderChart();
+        },
+
+        onSearch: () => {
+
+        },
+
+        onPressBtnExcel: () => {
+
+        },
+
+        onPressBtnApprove: () => {
+
+        },
+    },
+
+    toolsEditor: {
+        onPressBtnFullScreen: () => { },
+        onPressBtnBackToGrid: () => { }
+    }
+}

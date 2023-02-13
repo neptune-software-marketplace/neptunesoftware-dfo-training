@@ -1,0 +1,7 @@
+if (typeof QIRCommentary !== 'undefined') {
+    QIRCommentary.toolsEditor.onPressBtnFullScreen = () => {
+        let layout = ctrl.flex.layout;
+        layoutMain.setLayout(layout.actionButtonsInfo.midColumn.fullScreen);
+        ctrl.flex.layout = ctrl.flex.helper.getNextUIState(1);
+    }
+}

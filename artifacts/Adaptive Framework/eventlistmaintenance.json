@@ -1,0 +1,280 @@
+{
+	"id": "16d600de-54bd-4b44-aacd-aeb55ff34622",
+	"createdAt": "2023-02-12T17:47:00.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": true,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Events",
+				"subTitle": "Maintenance",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "cf8690b2-8944-4f58-b09f-c1e9ba873eeb",
+					"keyField": [
+						{
+							"fieldName": "id",
+							"key": "id",
+							"value": ""
+						},
+						{
+							"fieldName": "eventDate",
+							"key": "eventDate",
+							"value": ""
+						},
+						{
+							"fieldName": "eventVenue",
+							"key": "eventVenue",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "eventDate",
+				"label": "Event Date",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "eventVenue",
+				"label": "Event Venue",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "imageLink",
+				"label": "Link to an image",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "totalTickets",
+				"label": "Total Tickets",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ticketsAvailable",
+				"label": "Tickets still available",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "goldenCircleTickets",
+				"label": "Total Golden Circle Tickets",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "goldenCircleTicketsAvailable",
+				"label": "Golden Tickets Still Available",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "eventDate",
+				"text": "Date",
+				"fieldPos": 1,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "eventVenue",
+				"text": "Venue",
+				"fieldPos": 2,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "imageLink",
+				"text": "Link to an image",
+				"fieldPos": 3,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "totalTickets",
+				"text": "Total Tickets",
+				"fieldPos": 4,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "ticketsAvailable",
+				"text": "Tickets still available",
+				"fieldPos": 5,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "goldenCircleTickets",
+				"text": "Total Golden Circle Tickets",
+				"fieldPos": 6,
+				"type": "Input",
+				"editable": true
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "goldenCircleTicketsAvailable",
+				"text": "Golden Tickets Still Available",
+				"fieldPos": 7,
+				"type": "Input",
+				"editable": true
+			}
+		],
+		"defaultVariant": {
+			"id": "2bd05457-1acd-447c-8e1d-d8fce59f17b6",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "eventlistmaintenance",
+	"description": "Event list maintenance training",
+	"group": "",
+	"type": "C",
+	"connectorid": "de5dda20-ee64-47f4-92fa-475f0f8ee7f0",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.2.13.1247",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "d2574406-bcd3-4344-8c13-cca7c6cf0751",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

@@ -1,0 +1,49 @@
+const loadStaticModels = () => {
+    modeloTableInternal.setData(portafolioCompaniesModel);
+}
+
+const populateControls = () => {
+    loadFilterToInternalTbl();
+}
+
+const loadFilterToInternalTbl = () => {
+    let dataModel = 'modeloTableInternal.oData.portafolioCompanies';
+    let tableName = 'oTblFilterInternal';
+    let filterName = 'oTblSettingFilter';
+    
+    for (j = 0; j < eval(tableName + '.mAggregations.filterItems.length'); j++) {
+        let filterKey = eval(tableName + '.mAggregations.filterItems[j].getKey()');
+        setFilter(dataModel, filterName, filterKey);
+    }
+}
+
+/*
+dataModel: modeloTableInternal.oData,
+filterName: oTblSettingFilter,
+tabField: oTblFilterInternal.mAggregations.filterItems[j].getKey(): year, quarter
+*/
+const setFilter = (dataModel, filterName, tabField) => {
+    let filterArray = [];
+    let filterListItemString = filterName + tabField;
+    let filterListItem = eval(filterListItemString);
+    let data = eval(dataModel);
+
+    if (filterListItem.getItems().length > 0) {
+        filterListItem.removeAllItems();
+    }
+
+    for (let i = 0; i < data.length; i++) {
+        let row = dataModel + '[' + i + '].';
+        let filter = eval(row + tabField);
+        let filterText = filter;
+        if (!filterArray.includes(filter)) {
+            let tableFilter = new sap.m.ViewSettingsItem(filterName + tabField + i, {
+                text: filterText, //2019
+                key: tabField + "___EQ___" + filter /* year____EQ____2019 */
+            });
+            let control = eval('oTblSettingFilter' + tabField);
+            control.addItem(tableFilter);
+            filterArray.push(filter);
+        }
+    }
+}

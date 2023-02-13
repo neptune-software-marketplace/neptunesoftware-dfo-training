@@ -1,0 +1,60 @@
+.qirCommentary-onList-card {
+    overflow: hidden;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.qirCommentary-onListCard-header {}
+
+.qirCommentary-onListCard-title {
+    height: 20px;
+    margin: 0;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+/*TODO*/
+
+.qirCommentary-onListCard-content {
+    margin: 10px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.qirCommentary-onListCard-content p span {
+    background-color: transparent !important;
+    font-size: 1rem !important;
+}
+
+.qirCommentary-onListCard-footer {}
+
+.qirCommentary-onListCard-modifiedAt {
+    margin-right: 10px;
+    color: #aaa;
+    /*#777*/
+}
+
+.qirCommentary-onListCard-modifiedBy {}
+
+.qirCommentary-onListCard-statusIncomplete {
+    margin-right: 10px;
+    color: #fff;
+    background-color: coral;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+
+.qirCommentary-onListCard-feeds {
+    color: #fff;
+    background-color: #3ca1db;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}

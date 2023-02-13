@@ -1,0 +1,12 @@
+const navigateToDetail = () => {
+    renderEditCommentaryPage();
+    shrunkLayout();
+}
+
+const renderEditCommentaryPage = () => {
+    if (sap.n) {
+        AppCache.Load("trainingcommentaryedit", {
+            parentObject: pageCommentaryEdit,
+        });
+    }
+}

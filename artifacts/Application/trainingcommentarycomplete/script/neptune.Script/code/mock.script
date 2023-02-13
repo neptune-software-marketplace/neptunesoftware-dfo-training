@@ -1,0 +1,25 @@
+const portafolioCompaniesModel = {
+    "portafolioCompanies": [
+        {
+            "portafolioCompany": "Company A",
+        },
+        {
+            "portafolioCompany": "Company B",
+        },
+        {
+            "portafolioCompany": "Company C",
+        },
+        {
+            "portafolioCompany": "Company D",
+        },
+        {
+            "portafolioCompany": "Company E",
+        },
+        {
+            "portafolioCompany": "Company F",
+        },
+        {
+            "portafolioCompany": "Company G",
+        },
+    ]
+};

@@ -1,0 +1,11 @@
+const onFormatNumComments = (numComments) => {
+    console.log('inside custom component UTILS CODE');
+
+    if (typeof numComments === "undefined" || numComments === null || numComments === "") { return; }
+    let days = parseInt(numComments);
+    if (days === 1) {
+        return numComments + ' comment';
+    } else {
+        return numComments + ' comments';
+    }
+}
